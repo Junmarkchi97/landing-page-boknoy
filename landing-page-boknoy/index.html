@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boknoy | Food Delivery and Services</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="shortcut icon" href="media/fav.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/36a7a715d0.js" crossorigin="anonymous"></script>
+
+</head> 
+<body>
+    <header>
+        <nav>   
+            <div class="nav">
+                <input type="checkbox" id="hamburger" name="hamburger">
+                <label for="hamburger" class="hamburger"></label>
+                <a class="logo" href="./index.html"><img src="media/logo.png"></a>
+                <a href="./signin.html" class="profile"><i class="fa-regular fa-user fa-lg"></i></a>
+                <ul class="nav-list">    
+                    <li class="nav-links"><a class="nav-anchor" href="./about.html">About</a></li>
+                    <li class="nav-links"><a class="nav-anchor" href="#!">Contact Us</a></li>
+                    <li class="nav-links"><a class="nav-anchor" href="#!">Download App</a></li>
+                </ul>
+            </div>  
+            <div class="nav-member">
+                <input type="checkbox" name="checkbox" id="check_id" checked>
+                <label for="check_id" class="checkbox">Be Our Partner <i class="fa-solid fa-chevron-down symbol"></i></label>
+                <a class="login" href="./signin.html">Log In</a>
+                <a class="nav-sign" href="./signup.html">Sign Up</a>
+                <div class="partner">
+                    <a>Boknoy Rider</a>
+                    <a>Food/Mart Merchant</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main-container">
+        <h1>You Choose, We Deliver</h1>
+        <h5>Order food and more from anywhere</h5>
+        <form method="get" action="">
+            <div class="main-input">
+                <div class="main-address"> 
+                    <input 
+                        class="main-input-text" 
+                        type="text" 
+                        id="location" 
+                        name="location"
+                        required>
+                    <label for="location">Enter your street and house number</label>
+                    <span><i class="fa-solid fa-location-crosshairs fa-2xs" ></i></span>
+                </div>
+                <div class="main-button">
+                    <input
+                        id="delivery"
+                        type="radio" 
+                        name="Option"
+                        value="Delivery"
+                        checked="checked">
+                    <label for="delivery">Delivery</label>
+                    <input 
+                        id="pick-up"
+                        type="radio" 
+                        name="Option"
+                        value="Pick-Up">
+                    <label for="pick-up">Pick-Up</label>
+                </div>
+                <div  class="main-sign">
+                    <a href="./signin.html">Sign in</a>
+                    <p>for your saved addresses</p>
+                </div>
+            </div>
+        </form>
+        
+    </section>
+   
+    <section class="recommended">
+        <div class="rec-container">
+            <h1>Recommended</h1>
+            <div class="foods">
+                <div class="food-box">
+                    <img src="media/inasal1.jpg">
+                    <div class="box">
+                        <a href="#!">Mang Inasal</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/jb1.jpg">
+                    <div class="box">
+                        <a href="#!">J&B Bistro</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/sab1.jpg">
+                    <div class="box">
+                        <a href="#!">Sabroso</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/mons1.jpg">
+                    <div class="box">
+                        <a href="#!">Mons Grill</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rec-popular">
+            <h1>Popular near you</h1>
+            <div class="foods">
+                <div class="food-box">
+                    <img src="media/esposa1.jpg">
+                    <div class="box">
+                        <a href="">Resto Esposa</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/jobe1.png">
+                    <div class="box">
+                        <a href="#!">Jollibee</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/champs1.jpg">
+                    <div class="box">
+                        <a href="#!">Champs Pizza</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/vine1.jpg">
+                    <div class="box">
+                        <a href="#!">Vines</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rec-milk">
+            <h1>Milktea Stores</h1>
+            <div class="foods">
+                <div class="food-box">
+                    <img src="media/buble1.jpg">
+                    <div class="box">
+                        <a href="#!">Bubble Tea</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/adic1.jpg">
+                    <div class="box">
+                        <a href="#!">Addictea</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/panda1.jpg">
+                    <div class="box">
+                        <a href="#!">Panda</a>
+                    </div>
+                </div>
+                <div class="food-box">
+                    <img src="media/fest1.jpg">
+                    <div class="box">
+                        <a href="#!">Feastea</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="company"> 
+                <h3>COMPANY</h3>
+                <a href="#!">Blog</a>
+                <a href="#!">Contact Us</a>
+                <a href="#!">Privacy Policy</a>
+                <a href="#!">Cookie Policy</a>
+                <a href="#!">Terms & Conditions</a>
+            </div>
+            <div class="follow"> 
+                <h3>FOLLOW</h3>
+                <a href="https://www.facebook.com/BoknoyMolave" target="_blank"><i class="fa-brands fa-facebook"> Facebook</i></a>
+                <a href="#!"><i class="fa-brands fa-twitter"> Twitter</i></a>
+                <a href="#!"><i class="fa-brands fa-instagram">  Instagram</i></a>
+                <a href="#!"><i class="fa-brands fa-youtube"> Youtube</i></a>
+            </div>
+            <div class="application"> 
+                <h4>DOWNLOAD BOKNOY APP</h4>
+                <img src="./media/app1.png">
+                <!-- <img src="/media/app2.png"> -->
+                <img src="./media/app3.png">
+            </div>
+        </div>
+        <div>
+            <i class="fa-solid fa-copyright">Junmark Chi 2022</i>
+        </div>
+    </footer>
+</body>
+</html>

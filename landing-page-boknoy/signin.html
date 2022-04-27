@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Boknoy Delivery Services</title>
+    <link rel="stylesheet" href="./public/css/signin.css">
+    <script src="https://kit.fontawesome.com/36a7a715d0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./media/fav.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>   
+            <div class="nav">
+                <input type="checkbox" id="hamburger" name="hamburger">
+                <label for="hamburger" class="hamburger"></label>
+                <a class="logo" href="./index.html"><img src="media/logo.png"></a>
+                <a href="./signin.html" class="profile"><i class="fa-regular fa-user fa-lg"></i></a>
+                <ul class="nav-list">    
+                    <li class="nav-links"><a class="nav-anchor" href="./about.html">About</a></li>
+                    <li class="nav-links"><a class="nav-anchor" href="#!">Contact Us</a></li>
+                    <li class="nav-links"><a class="nav-anchor" href="#!">Download App</a></li>
+                </ul>
+            </div>  
+            <div class="nav-member">
+                <input type="checkbox" name="checkbox" id="check_id" checked>
+                <label for="check_id" class="checkbox">Be Our Partner <i class="fa-solid fa-chevron-down symbol"></i></label>
+                <a class="login" href="./signin.html">Log In</a>
+                <a class="nav-sign" href="./signup.html">Sign Up</a>
+                <div class="partner">
+                    <a>Boknoy Rider</a>
+                    <a>Food/Mart Merchant</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <form action="./index.html" method="get">
+            <div class="container">
+                <h3>LOG IN</h3>
+                <input class="input-email" type="email,text" id="Email" name="Email" required>
+                <label class="label-email" for="Email"><i class="fa-regular fa-envelope"></i> Email</label>
+                <input class="input-pass" type="password" name="Password" id="Password" required>
+                <label class="label-pass" for="Password"><i class="fa-solid fa-key fa-sm" ></i> Password</label>
+                <div class="remember">
+                    <input class="input-rem" type="checkbox" name="remember" id="remember">
+                    <label class="label-rem" for="remember">Remember me?</label>
+                </div>
+                <input class="login" type="submit" value="LOG IN">
+                <label for="Login"></label>
+                <a class="forgot-pass" href="">Forgot Password?</a>
+                <span class="span">OR</span>
+                <div class="sign-links">
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="need-signup">
+                    <span>Need an account? <a href="./signup.html">SIGN UP</a></span>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up | Boknoy Delivery</title>
+    <link rel="stylesheet" href="./public/css/signup.css">
+    <link rel="shortcut icon" href="./media/fav.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/36a7a715d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>   
+            <div class="nav">
+                <input type="checkbox" id="hamburger" name="hamburger">
+                <label for="hamburger" class="hamburger"></label>
+                <a class="logo" href="./index.html"><img src="media/logo.png"></a>
+                <a href="./signin.html" class="profile"><i class="fa-regular fa-user fa-lg"></i></a>
+                <ul class="nav-list">    
+                    <li class="nav-links"><a class="nav-anchor" href="./about.html">About</a></li>
+                    <li class="nav-links"><a class="nav-anchor" href="#!">Contact Us</a></li>
+                    <li class="nav-links"><a class="nav-anchor" href="#!">Download App</a></li>
+                </ul>
+            </div>  
+            <div class="nav-member">
+                <input type="checkbox" name="checkbox" id="check_id" checked>
+                <label for="check_id" class="checkbox">Be Our Partner <i class="fa-solid fa-chevron-down symbol"></i></label>
+                <a class="login" href="./signin.html">Log In</a>
+                <a class="nav-sign" href="./signup.html">Sign Up</a>
+                <div class="partner">
+                    <a>Boknoy Rider</a>
+                    <a>Food/Mart Merchant</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <form action="./index.html" method="get">
+            <section>
+                <div class="email-container" id="email-container">
+                    <div class="email">
+                        <h2>Let's get you started!</h2>
+                        <h4>First, enter your email</h4>
+                        <input type="email,text" name="email" required autocomplete="off">
+                        <label for="email"><i class="fa-regular fa-envelope"></i>  Email</label>
+                        <a href="#name-container">Continue</a>
+                    </div>
+                </div>
+                <div class="name-container" id="name-container">
+                    <div class="name">
+                        <a href="#email-container" class="name-arrow"><i class="fa-solid fa-arrow-left"></i></a>
+                        <h3>Enter your full name and password *</h3>
+                        <div>
+                            <input type="text" name="first-name" class="input-first" required autocomplete="off">
+                            <label for="first-name" class="label-first"><i class="fa-solid fa-user fa-sm"></i> First Name</label>
+                            <input type="text" name="last-name" class="input-last" required autocomplete="off">
+                            <label for="last-name" class="label-last"><i class="fa-solid fa-user fa-sm"></i> Last Name</label>
+                        </div>
+                        <input type="password" name="password" class="input-pass" required autocomplete="off">
+                        <label for="password" class="label-pass"><i class="fa-solid fa-key fa-sm" ></i> Password</label>
+                        <a href="#address-container" class="name-next">Continue</a>
+                    </div>
+                </div>
+                <div class="address-container" id="address-container">
+                    <div class="address">
+                        <a href="#name-container"><i class="fa-solid fa-arrow-left"></i></a>
+                        <h3>Enter your full address *</h3>
+                        <input type="text" name="street-address" class="input-street" required autocomplete="off">
+                        <label for="street-address" class="label-street"><i class="fa-solid fa-address-book fa-sm"></i> Street Address</label>
+                        <div>
+                            <input type="text" name="city" class="input-city" required autocomplete="off">
+                            <label for="city" class="label-city"><i class="fa-solid fa-address-book fa-sm"></i> City</label>
+                            <input type="text" name="state" class="input-state" required autocomplete="off">
+                            <label for="state" class="label-state"><i class="fa-solid fa-address-book fa-sm"></i> State</label>
+                        </div>
+                        <div>
+                            <input type="text" name="zip" class="input-zip" required autocomplete="off">
+                            <label for="zip" class="label-zip"><i class="fa-solid fa-address-book fa-sm"></i> Zip</label>
+                            <input type="text" name="phone-number" class="input-phone" required autocomplete="off">
+                            <label for="phone-number" class="label-phone"><i class="fa-solid fa-phone fa-sm"></i> Phone Number</label>
+                        </div>
+                        <textarea name="landmark" class="input-landmark" required autocomplete="off"></textarea>
+                        <label for="landmark" class="label-landmark"><i class="fa-solid fa-landmark fa-sm"></i> Landmark</label>
+                        <input type="submit" class="submit" value="Create Account" required>
+                        <label for="submit"></label>
+                    </div>
+                </div>
+            </section>
+        </form>
+</body>
+</html>
