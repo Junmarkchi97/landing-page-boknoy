@@ -1,4 +1,12 @@
-.sass-cache/
+# Ignore SASS config files
+.sass-cache
 *.css.map
 *.sass.map
 *.scss.map
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore parcel js files
+.parcel-cache
+dist
